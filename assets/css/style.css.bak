@@ -1,0 +1,272 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/*###### hero section css ####*/
+.hero-section{
+	padding: 45px 0 65px;
+	/*background-color: #ca4848;*/
+	/*background-image: url('../images/bg-1.jpg');*/
+	background-image: linear-gradient(rgb(218, 51, 45, 0.5), rgb(218, 51, 45, 0.5)), url('../images/bg-1.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size:cover;
+	background-position: center;
+	overflow: hidden;
+}
+.hero-section .logo{
+	  margin-bottom: 140px;
+  }
+  .hero-section .navbar ul{
+	  padding-top: 15px;	
+  }
+ .hero-section .navbar ul li{
+	  display: inline-block;
+	  margin-left: 10px; 													/*alternate>> margin-right:20px* / >>*/ 
+ }                                                    /*.navbar li:last-child{ margin-right: 0;}*/
+  
+  .hero-section .navbar ul li a{
+	  color:#ffffff;
+	  text-transform: uppercase;
+	  font-size: 16px;
+	  font-weight: 400;
+	  padding: 10px;
+	  position: relative;
+  }
+  .hero-section .navbar ul li a::after{
+	  content: '';
+	  width: 0;
+	  height: 3px;
+	  background-color:#ffffff;
+	  position: absolute;
+	  left: 0;
+	  bottom: 0;
+	  transition: all 0.5s ease-in-out;  /*always apply on after before tag*/
+  }
+  .hero-section .navbar ul li a:hover::after{
+	 width: 100%;
+  }
+  .chocolate-info h2{
+	  color: #ffffff;
+	  font-size:52px;
+	  font-weight:bold;
+	  text-transform: uppercase;
+	  margin-bottom: 60px;
+  }
+  .chocolate-info p{
+	  color: #ffffff;
+	  font-size: 36px;
+	  font-weight: 400;
+	  margin-bottom: 50px;
+  }
+  .chocolate-info a{
+	  color:#ffffff;
+	  background-color: #282828;
+	  font-size: 17px;
+	  font-weight:bold;
+	  text-transform: uppercase;
+	  padding: 15px 50px 15px 35px;
+	  border-radius:45px;
+  }
+  .chocolate-info a i{
+	  font-size: 45px;
+	  vertical-align:middle;
+	  margin-right: 25px;
+  }
+  
+  
+  /* ############# feature section #######*/
+  .app-features{
+	  padding: 85px 0 110px;
+	  background-color: #ffffff;
+  }
+  .heading-features h1{
+	  color: #8a8a8a;
+	  font-size: 52px;
+	  font-weight: bold;
+	  text-transform: uppercase;
+	  margin-bottom: 45px;
+  }
+  .heading-features p{
+	  color: #3a3a3a;
+	  font-size: 22px;
+	  font-weight: 400;
+	  margin-bottom: 65px;
+  }
+  .features-info h2{
+	  color: #1a1a1a;
+	  font-size: 24px;
+	  font-weight:bold;
+	  text-transform: uppercase;
+	  margin-bottom: 45px;
+  }
+  .features-info figure{
+	  width: 180px;
+	  height: 180px;
+	  margin: 0 auto 40px;
+  }
+  .features-info figure img{
+	  width: 100%;
+	  height: 100%;
+	  object-fit: cover;
+  }
+  .features-info p{
+	  color:#646464 ;
+	  font-size: 18px;
+	  font-weight: 400px;
+  }
+  
+  /*###### fruit-cake section css ####*/
+  
+  .fruit-cake{
+	  padding: 200px 0 170px;
+	  background-image: url('../images/bg-2.jpg');
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+		background-position: right;
+  
+  }
+  .fruit-cake .fruits-info h2,h3,h4{
+	  color: #ffffff;
+	  font-size: 52px;
+	  font-weight: bold;
+	  text-transform: uppercase;
+	 
+  }
+  .fruit-cake h4{
+	   margin-bottom: 55px ;
+  }
+  .fruit-cake p {
+	  color: #585858;
+	  font-size: 24px;
+	  font-weight: 400;
+	  margin-bottom: 75px;
+  }
+  .fruit-cake a{
+	  color: #ffffff;
+	  font-size: 15px;
+	  font-weight: bold;
+	  text-transform: uppercase;
+	  border-radius: 45px;
+	  background-color: #d9332d;
+	  padding: 20px 25px;
+	   border: 1px solid #d9332d;
+	   transition: all 0.5s ease-in-out;
+  }
+  .fruit-cake a:hover{
+	  color: #d9332d;
+	  background-color: #ffffff;
+	  border:1px solid #d9332d;
+  }
+  
+ /*############ tfoot-section css #############*/
+ 
+  .tfoot-section{
+	  padding: 120px 0 150px;
+	  background-color: #2e2e38;
+  }
+  .tfoot-section .footer-logo{
+	  margin-bottom: 60px;
+  }
+  .tfoot-section  h4{
+	  color: #ffffff;
+	  font-size: 20px;
+	  font-weight: bold;
+	  text-transform: capitalize;
+	  margin-bottom: 25px;
+  }
+  .footer-list ul li .box{
+	  width: 55px;
+	  height: 40px;
+	  background-color: #e74c3c;
+	
+  }
+  .footer-list ul li {
+	list-style: none;
+  }
+  .footer-list ul li{
+	  display: table;
+	  clear: both;
+	  width: 100%;
+	  margin-bottom: 25px;
+  }
+  .footer-list ul li div{
+	  float: left;
+  }
+  .footer-list .fruitcake-info{
+	  padding-top: 5px;
+	  margin-left: 15px; 
+  }
+  .footer-list .fruitcake-info p{
+	  font-size: 15px;
+	  font-weight: 400;
+	  color: #ffffff;
+	  text-transform: capitalize;
+  }
+  .suits-list ul li{
+	  font-size: 15px;
+	  font-weight: bold;
+	  color: #ffffff;
+	  padding-top: 5px;
+  }
+   .suits-list ul li p{
+	   font-size: 11px;
+	   color: #ffffff;
+	   padding-top: 10px;
+   }
+   .suits-list ul .suits-info{
+	   font-size: 14px;
+	   font-weight: 400;
+	   width: 70%; /*generally don't give width here .it'll take according to content*/
+   }
+   .footer-list .about-info{
+	   color: #ffffff;
+	   font-size: 15px ;
+	   font-style: italic;
+	   width:70%;
+   }
+   
+   /*############ footer-section css #############*/
+   
+footer{
+	padding: 40px;
+	background-color: #d7dedc;
+}
+.footer-info-section p,  .social-icon{
+	display: inline-block;
+}
+.footer-info-section p{
+	/*border-right: 2px solid #000000;*/
+	font-size: 25px;
+	font-weight: 400;
+	color: #000000;
+}
+.footer-info-section p span{
+	margin-right:20px;
+	margin-left: 20px;
+	display: inline-block;
+}
+.footer-info-section p a{
+	color: #000000;
+}
+.social-icon a{
+	width:30px;
+	height: 30px;
+	color: #ffffff;
+	display: inline-block;
+	background-color: #4661a0;
+	padding: 8px 8px;
+	margin-right: 35px;
+	border-radius: 5px;
+}
+.social-icon a:nth-child(2){
+    background-color: #de3c7d;
+}
+.social-icon a:nth-child(2){
+	background-color:#a5e8ea;
+}
+.social-icon a i{
+	font-size: 18px;
+}
